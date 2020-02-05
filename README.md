@@ -14,3 +14,5 @@ The code uses [-1 0 -1] kernel for gradient magnitude and orientation calculatio
 Histograms of 8 bins are calculated with magnitudes as weights.
 Each image is checked if its of 32X32 size, else its resized. Each 32X32 image pixel matrix, is organised into 8X8 cells and then, histograms are calculated for each cell. 
 Then, a 4X4 matrix with 8 bins in each cell is obtained. This matrix is organised as 2X2 blocks(with 50% overlap) and normalised, by dividing with the magnitude of histogram bins' vector.
+
+My Downloads folder contain Detection Folder in which ball images are in balls folder and in empty folder, it contains non ball images and in test folder it contains test images.
